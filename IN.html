@@ -1,0 +1,20 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Genetic Condition Predictor</title> <style> * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+    body { display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; background: linear-gradient(to right, #ff9966, #ff5e62); }
+    
+    .container { width: 400px; background: #fff; border-radius: 4px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); overflow: hidden; }
+    
+    .form-header { padding: 2rem 1.5rem; background: #ffc107; border-radius: 4px 4px 0 0; }
+    
+    h1 { color: #fff; font-size: 1.5rem; text-align: center; }
+    
+    form { padding: 2rem 1.5rem; }
+    
+    label { display: block; margin-bottom: 0.5rem; font-size: 0.9rem; }
+    
+    input[type="text"] { display: block; width: 100%; padding: 0.5rem; font-size: 0.9rem; border-radius: 4px; border: 1px solid #ddd; margin-bottom: 1.5rem; }
+    
+    button[type="submit"] { display: block; width: 100%; padding: 0.5rem; font-size: 0.9rem; background: #2e7d32; color: #fff; border: none; border-radius: 4px; cursor: pointer; transition: background 0.3s ease; }
+    
+    button[type="submit"]:hover { background: #1b5e20; } </style>
+    
+    </head> <body> <div class="container"> <div class="form-header"> <h1>Genetic Condition Predictor</h1> </div> <form action="/predict" method="post"> <label for="user_input">Enter Genetic Condition:</label> <input type="text" name="user_input" required> <button type="submit">Predict</button> </form> </div> </body> </html>

@@ -1,0 +1,5 @@
+Genetic Conditions,Genes Involved,Symptoms,Prevalence,Drug Name,,Side effects,Clinical trial data,Treatment outcome,Adverse reactions,Genetic Mutations,,Treatment duration,Drug dosage,Genetic biomarkers
+Hypertrophic cardiomyopathy,MYH7,Tachycardia,1 in 500,"Metoprolol,Beta-blocker",,Fatigue,Detailed results from phase III trial,Improved symptoms,None,MYH7 mutation,,12 weeks,50 mg,RS10757274
+Cystic fibrosis,CFTR,Chronic cough,1 in 2,"Orkambi,CFTR modulator",,Nausea,Detailed results from phase II trial,Improved lung function,Nausea,CFTR F508del mutation,,6 months,200 mg,CFTR F508del
+Hereditary breast cancer,BRCA1,Breast lump,1 in 3000,Tamoxifen,,Hot flashes,Detailed results from retrospective study,Reduced tumor size,Endometrial cancer risk,BRCA1 mutation,,1 year,20 mg,BRCA1
+Alzheimer's disease,APP,Memory loss,1 in 10,"Donepezil, Acetylcholinesterase inhibitor",,Nausea,Detailed results from phase IV trial,Stabilized cognitive decline,Diarrhea,APP duplication,,2 years,10 mg,APP duplication

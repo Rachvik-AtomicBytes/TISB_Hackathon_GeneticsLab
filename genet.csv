@@ -1,0 +1,115 @@
+Genetic_Condition,Chromosome_Involved,Description,Genetic_mutation,Treatment_Plan
+Canavan disease,17p,"Description: Canavan disease is a rare genetic disorder that affects the brain and nervous system. It is caused by mutations in the ASPA gene, leading to a deficiency of the enzyme aspartoacylase. This deficiency results in the accumulation of a compound called N-acetylaspartic acid (NAA) in the brain, leading to progressive damage to nerve cells.
+Symptoms: Symptoms typically appear in early infancy and may include developmental delays, poor muscle tone (hypotonia), feeding difficulties, and intellectual disability. Seizures, vision loss, and paralysis may also occur in some cases.
+Diagnosis: Diagnosis is typically based on clinical evaluation, imaging studies (such as MRI), and genetic testing to identify mutations in the ASPA gene.",None,"Symptom management and supportive care
+Physical therapy to maintain mobility and function
+Occupational therapy to assist with daily activities
+Speech therapy to improve communication skills
+Nutritional support as needed
+Genetic counseling for families"
+Charcot Marie Tooth disease,17p12[1],"Description: Charcot–Marie–Tooth disease (CMT) is a group of inherited disorders that affect the peripheral nerves, leading to muscle weakness and sensory loss in the arms and legs. It is caused by mutations in genes that are involved in the structure and function of peripheral nerves.
+Symptoms: Symptoms vary depending on the specific subtype of CMT but may include muscle weakness, foot deformities (such as high arches or hammertoes), loss of sensation, and difficulty walking.
+Diagnosis: Diagnosis is typically based on clinical evaluation, nerve conduction studies, electromyography (EMG), and genetic testing to identify mutations associated with CMT.",Dup,"Physical therapy and exercise to maintain strength and flexibility
+Orthopedic interventions such as braces or splints to support weak muscles and prevent deformities
+Pain management medications as needed
+Assistive devices such as orthotic shoes or walking aids
+Genetic counseling for families
+"
+Color blindness,X,"Description: Color blindness, also known as color vision deficiency, is a genetic condition characterized by difficulty distinguishing certain colors. It is caused by abnormalities in the photopigments of cone cells in the retina, which are responsible for color vision.
+Symptoms: Individuals with color blindness may have difficulty distinguishing between certain colors, particularly red and green or blue and yellow. In severe cases, they may see only shades of gray.
+Diagnosis: Diagnosis is typically based on color vision testing, such as the Ishihara color plates, which involve identifying numbers or patterns within colored circles.",P,"No specific drug treatment available
+Management focuses on education and coping strategies
+Use of specialized lenses or glasses to enhance color perception (e.g., EnChroma glasses)"
+Cri du chat syndrome,"""5""","Description: Cri du chat syndrome, also known as 5p- syndrome, is a rare genetic disorder caused by a deletion of genetic material on the short arm of chromosome 5. It is characterized by distinctive facial features, intellectual disability, and developmental delays.
+Symptoms: Symptoms may include a high-pitched cat-like cry (cri du chat), low birth weight, microcephaly, round face, and developmental delays in speech and motor skills.
+Diagnosis: Diagnosis is typically based on clinical evaluation, chromosomal analysis (karyotype), and genetic testing to identify the deletion on chromosome 5.",D,"Early intervention services to address developmental delays
+Speech therapy to improve communication skills
+Occupational therapy to assist with fine motor skills
+Behavioral interventions to address hyperactivity or aggression
+Supportive care tailored to individual needs"
+Cystic fibrosis,7q,"Description: Cystic fibrosis is a hereditary disorder that affects the respiratory and digestive systems, causing thick, sticky mucus to build up in the lungs and digestive tract. It is caused by mutations in the CFTR gene, which regulates the movement of salt and water in and out of cells. Symptoms of cystic fibrosis include chronic cough, frequent lung infections, digestive problems, and poor growth.",P,"Airway clearance techniques to help clear mucus from the lungs
+Inhalation therapies such as bronchodilators and hypertonic saline to improve lung function
+CFTR modulator therapy (e.g., ivacaftor, lumacaftor/ivacaftor, tezacaftor/ivacaftor) to address underlying genetic defects
+Antibiotics to treat lung infections
+Nutritional support and pancreatic enzyme replacement therapy"
+DiGeorge syndrome,22q,"Description: DiGeorge syndrome, also known as 22q11.2 deletion syndrome, is a chromosomal disorder caused by a deletion of genetic material on chromosome 22. It is characterized by a wide range of symptoms, including congenital heart defects, immune system abnormalities, developmental delay, and characteristic facial features. DiGeorge syndrome can affect multiple organ systems and vary widely in severity.",D,"Surgical correction of congenital heart defects, if present
+Hormone replacement therapy to address hormone deficiencies (e.g., thymic hormone, parathyroid hormone)
+Speech therapy and educational interventions to address speech and learning difficulties
+Immunizations and preventive care to reduce the risk of infections
+Supportive care and management of associated conditions (e.g., feeding difficulties, immune system abnormalities)"
+Down syndrome,"""21""","Description: Down syndrome, also known as trisomy 21, is a genetic disorder caused by the presence of an extra copy of chromosome 21. It is characterized by intellectual disability, distinctive facial features, and developmental delays. Individuals with Down syndrome may also have other health issues, such as heart defects, gastrointestinal problems, and increased risk of certain medical conditions.",C,"Early intervention services to support developmental milestones
+Educational programs tailored to individual needs (e.g., special education, speech therapy)
+Routine medical care and screenings for associated health conditions (e.g., heart defects, thyroid disorders)
+Supportive care and social services to promote independence and quality of life"
+Duchenne muscular dystrophy,Xp,"Description: Duchenne muscular dystrophy (DMD) is a genetic disorder characterized by progressive muscle weakness and degeneration. It is caused by mutations in the dystrophin gene, which is essential for maintaining the structure and function of muscle fibers. Symptoms of DMD typically appear in early childhood and worsen over time, leading to difficulties with walking, mobility, and eventually breathing and heart function.",D,"Corticosteroid therapy (e.g., prednisone, deflazacort) to help slow the progression of muscle weakness
+Physical therapy and exercise programs to maintain muscle strength and function
+Orthopedic interventions (e.g., braces, surgery) to manage contractures and scoliosis
+Cardiac and respiratory management to address complications
+Investigational therapies such as gene therapy or exon-skipping drugs (e.g., eteplirsen)"
+Familial hypercholesterolemia,"""19""","Description: Familial hypercholesterolemia (FH) is a genetic disorder characterized by high levels of cholesterol in the blood. It is caused by mutations in genes involved in cholesterol metabolism, such as the LDLR gene. FH increases the risk of premature heart disease and cardiovascular complications. Symptoms may include high levels of LDL cholesterol, early onset of heart disease, and family history of hypercholesterolemia.
+",P,"Statin therapy (e.g., atorvastatin, simvastatin) to lower cholesterol levels
+Other lipid-lowering medications such as ezetimibe or PCSK9 inhibitors (e.g., evolocumab, alirocumab)
+Lifestyle modifications including a heart-healthy diet, regular exercise, and smoking cessation
+Screening and management of associated cardiovascular risk factors (e.g., hypertension, diabetes)"
+Haemochromatosis type 1,"""6""","Description: Haemochromatosis type 1 is a hereditary disorder characterized by excessive absorption of dietary iron, leading to iron overload in the body's tissues and organs. It is most commonly caused by mutations in the HFE gene. Symptoms of haemochromatosis type 1 may include fatigue, joint pain, abdominal pain, and liver problems. If left untreated, iron overload can lead to serious complications such as liver cirrhosis, diabetes, and heart disease.
+",P,"Phlebotomy (blood removal) to reduce iron levels in the body
+Chelation therapy with medications such as deferoxamine or deferasirox to remove excess iron
+Dietary modifications to limit iron intake (e.g., avoiding iron supplements and iron-rich foods)
+Monitoring of liver function and screening for complications such as liver cirrhosis and diabetes
+Genetic counseling and screening for family members"
+Hemophilia,X,"Description: Hemophilia is a genetic disorder that affects the body's ability to control blood clotting, leading to prolonged bleeding episodes and difficulty forming blood clots. It is caused by mutations in genes that encode clotting factors, such as factor VIII for hemophilia A and factor IX for hemophilia B. Hemophilia is characterized by spontaneous or excessive bleeding into joints, muscles, or internal organs, often resulting in pain, swelling, and mobility issues.",P,"Replacement therapy with clotting factor concentrates (e.g., factor VIII for hemophilia A, factor IX for hemophilia B) to prevent or control bleeding episodes
+Desmopressin (DDAVP) for mild hemophilia A
+Antifibrinolytic medications such as tranexamic acid to help stabilize blood clots
+Prophylactic treatment to prevent joint damage and other complications
+Genetic counseling for families"
+Klinefelter syndrome,X,"Description: Klinefelter syndrome is a chromosomal disorder characterized by the presence of an extra X chromosome in males (XXY). It is associated with hypogonadism, infertility, and developmental and cognitive differences. Symptoms may include small testes, reduced fertility, gynecomastia (enlarged breasts), and tall stature. Klinefelter syndrome varies in severity and can affect physical, cognitive, and social development.",C,"Hormone replacement therapy with testosterone to address hypogonadism and improve secondary sexual characteristics
+Fertility treatments such as assisted reproductive techniques (e.g., in vitro fertilization, intracytoplasmic sperm injection)
+Psychological counseling and support to address any emotional or social issues
+Regular monitoring for associated health conditions (e.g., osteoporosis, metabolic syndrome)"
+Neurofibromatosis,17q or 22q,"Description: Neurofibromatosis is a genetic disorder that causes tumors to form on nerve tissue. It is caused by mutations in genes that regulate cell growth and division, such as the NF1 and NF2 genes. Neurofibromatosis can affect multiple organ systems, including the skin, nervous system, and bones. Symptoms may vary widely and can include café-au-lait spots (pigmented skin lesions), neurofibromas (benign tumors), skeletal abnormalities, and neurological problems.",None,"Symptomatic management of tumors, pain, and other complications
+Surgical removal of tumors if necessary
+Genetic counseling and prenatal testing for families
+Monitoring for complications such as high blood pressure, scoliosis, and vision problems"
+Phenylketonuria,12q,"Description: Phenylketonuria (PKU) is a genetic disorder caused by a deficiency of the enzyme phenylalanine hydroxylase, which is needed to break down the amino acid phenylalanine. Without this enzyme, phenylalanine builds up in the body and can cause intellectual disability and other neurological problems. PKU is typically detected through newborn screening and managed with a strict low-phenylalanine diet and medical foods.",P,"Dietary restriction of phenylalanine (Phe) to prevent buildup of toxic levels in the blood
+Consumption of medical foods that are low in Phe and supplemented with essential nutrients (e.g., Phenyl-Free)
+Monitoring of blood Phe levels and adjustment of dietary Phe intake as needed
+Supplementation with tetrahydrobiopterin (BH4) for certain forms of phenylketonuria (e.g., BH4-responsive PKU)"
+Polycystic kidney disease,16 (PKD1) or 4 (PKD2),"Description: Polycystic kidney disease (PKD) is a genetic disorder characterized by the growth of fluid-filled cysts in the kidneys. It is caused by mutations in genes that regulate kidney cell growth and proliferation, such as the PKD1 and PKD2 genes. PKD can lead to kidney enlargement, kidney failure, and other complications such as high blood pressure and urinary tract infections.",P,"Management of blood pressure with medications such as ACE inhibitors or ARBs to slow the progression of kidney disease
+Dietary modifications to maintain a healthy weight and reduce the risk of complications
+Symptomatic treatment for pain, urinary tract infections, and other complications
+Regular monitoring of kidney function and screening for associated conditions (e.g., hypertension, kidney stones)
+Genetic counseling and screening for family members"
+Prader Willi syndrome,15q,"Description: Prader–Willi syndrome is a genetic disorder characterized by intellectual disability, hyperphagia (excessive eating), obesity, and behavioral problems. It is caused by the loss of genetic material from the paternal chromosome 15, typically due to a deletion in the region known as 15q11-q13. Individuals with Prader–Willi syndrome may also have low muscle tone, short stature, and developmental delays.",DCP,"Growth hormone therapy to improve growth and development
+Nutritional management and supervision to prevent obesity and related complications
+Behavioral interventions to address hyperphagia and food-seeking behaviors
+Monitoring and treatment of associated health conditions (e.g., sleep apnea, scoliosis)
+Supportive care and social services to address developmental and behavioral challenges"
+Scheuermann's disease,1q21-q22 or 7q22,"Description: Scheuermann's disease, also known as juvenile kyphosis, is a condition that causes abnormal growth of the vertebral bones in the spine. It typically affects adolescents during periods of rapid growth and is characterized by wedging of the vertebrae, leading to an exaggerated forward curvature of the upper back (kyphosis). Symptoms may include back pain, stiffness, and postural changes.",None,"Physical therapy and exercise to improve posture and strengthen back muscles
+Pain management medications such as NSAIDs or muscle relaxants
+Bracing to support the spine and reduce pain
+Surgical intervention in severe cases with significant curvature or neurological symptoms
+Regular monitoring of spinal health and function"
+Sickle cell disease,11p,"Description: Sickle cell disease is a genetic disorder that affects the red blood cells, causing them to become rigid and crescent-shaped (sickle-shaped) instead of flexible and round. It is caused by mutations in the HBB gene, which encodes the beta-globin subunit of hemoglobin. Sickle cell disease can lead to episodes of severe pain (sickle cell crises), anemia, organ damage, and increased risk of infections and stroke.",P,"Hydroxyurea therapy to reduce the frequency of painful crises and complications
+Pain management medications such as opioids or NSAIDs to manage acute pain episodes
+Blood transfusions to treat severe anemia or prevent complications such as stroke
+Antibiotics to prevent infections and manage complications such as acute chest syndrome
+Supportive care and management of associated conditions (e.g., iron overload, pulmonary hypertension)"
+Spinal muscular atrophy,5q,"Description: Spinal muscular atrophy (SMA) is a genetic disorder characterized by progressive muscle weakness and atrophy due to loss of motor neurons in the spinal cord and brainstem. It is caused by mutations in genes that are essential for motor neuron function, such as the SMN1 gene. SMA can vary widely in severity, with some individuals experiencing mild muscle weakness and others having profound weakness and respiratory insufficiency.",DP,"Disease-modifying therapies such as nusinersen (Spinraza) or onasemnogene abeparvovec (Zolgensma) to increase survival motor neuron (SMN) protein levels
+Physical therapy and occupational therapy to maintain mobility and function
+Respiratory support such as cough assistance devices or non-invasive ventilation
+Nutritional support and feeding assistance as needed
+Supportive care and management of associated complications (e.g., scoliosis, respiratory infections)"
+Tay Sachs disease,15q,"Description: Tay–Sachs disease is a rare genetic disorder characterized by the progressive destruction of nerve cells in the brain and spinal cord. It is caused by mutations in the HEXA gene, which encodes an enzyme needed to break down certain fatty substances in the brain. Tay–Sachs disease typically manifests in infancy and leads to developmental regression, loss of motor skills, seizures, and eventual death.",P,"vSymptomatic management to address seizures, muscle stiffness, and other complications
+Supportive care to maintain comfort and quality of life
+Palliative care for end-of-life support
+Genetic counseling and family support"
+Turner syndrome,X,"Description: Turner syndrome is a chromosomal disorder characterized by the partial or complete absence of one of the X chromosomes in females. It is associated with short stature, ovarian insufficiency, and developmental and cognitive differences. Symptoms may include short stature, delayed puberty, infertility, and heart defects. Turner syndrome varies in severity and can affect physical, cognitive, and social development.",C,"Growth hormone therapy to improve growth and development
+Estrogen replacement therapy to induce puberty and maintain bone health
+Fertility treatments such as egg donation or assisted reproductive techniques
+Monitoring and management of associated health conditions (e.g., heart defects, thyroid disorders)
+Psychological support and counseling to address emotional and social challenges"
+Angelman Syndrome,15q,"Description: Angelman syndrome is a genetic disorder characterized by developmental delays, intellectual disability, speech impairments, and a happy, excitable demeanor. It is caused by abnormalities in the UBE3A gene, which is located on chromosome 15. Angelman syndrome typically becomes apparent in early childhood and is associated with distinctive facial features, such as a wide mouth and protruding tongue. Individuals with Angelman syndrome may also experience seizures, sleep disturbances, and motor impairments.",DCP,"Symptomatic management of seizures with antiepileptic medications
+Physical therapy, occupational therapy, and speech therapy to address developmental delays and improve communication skills
+Behavioral interventions to manage hyperactivity, anxiety, and sleep disturbances
+Assistive devices and adaptive technologies to support independence and mobility
+Genetic counseling and family support"

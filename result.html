@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Result</title>
+   <style>
+       * {
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box;
+           font-family: Arial, sans-serif;
+       }
+
+       body {
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           min-height: 100vh;
+           margin: 0;
+           background: #f5f5f5;
+       }
+
+       .container {
+           width: 400px;
+           background: #fff;
+           border-radius: 4px;
+           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+           overflow: hidden;
+           padding: 2rem;
+       }
+
+       h1 {
+           color: #3f3f3f;
+           font-size: 1.5rem;
+           text-align: center;
+           margin-bottom: 1.5rem;
+       }
+
+       p {
+           color: #3f3f3f;
+           font-size: 0.9rem;
+           line-height: 1.5;
+           margin-bottom: 0.75rem;
+       }
+
+       p:last-child {
+           margin-bottom: 0;
+       }
+   </style>
+</head>
+<body>
+   <div class="container">
+       <h1>Genetic Condition Prediction Result</h1>
+       <p>User Input: {{ user_input }}</p>
+       <p>Predicted Genetic Mutation: {{ result['Genetic_mutation'] }}</p>
+       <p>Predicted Treatment Plan: {{ result['Treatment_Plan'] }}</p>
+       <p>Predicted Chromosome Involved: {{ result['Chromosome_Involved'] }}</p>
+   </div>
+</body>
+</html>
