@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Population Health Analytics</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #4CAF50; /* Green color */
+            color: #fff;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            opacity: 0.8;
+        }
+
+        header .cta-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        header .cta-btn:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1, h2 {
+            color: #1e3a5e;
+        }
+
+        p {
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            color: #333;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #4CAF50;
+            color: #fff;
+        }
+
+        .highlight {
+            background-color: #f1f8e9; /* Light green background */
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .cta-btn:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+
+        #map {
+            height: 400px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+        .movement{
+            margin-left: 120px;
+        }
+    </style>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Unlocking Insights for Informed Public Health Decisions</h1>
+        <p class="movement">Delve into our genetic disease hub for a nuanced understanding of various conditions. Navigate through prevalence rates, symptomatology, cutting-edge treatments, and ongoing research.</p>
+        <a href="#get-involved" class="cta-btn">Get Involved</a>
+    </header>
+
+    <main>
+        <section>
+            <h2>Overview</h2>
+            <p>
+               Delve into our genetic disease hub for a nuanced understanding of conditions such as Hypertrophic Cardiomyopathy, Cystic Fibrosis, Hereditary Breast Cancer, Huntington's Disease, and Alzheimer's. Navigate through prevalence rates, symptomatology, cutting-edge treatments, and ongoing research. Uncover the significance of genetic testing, biomarkers, and personalized approaches, empowering individuals in navigating their genetic health journey.
+            </p>
+            <p>
+                Population Health Analytics involves the comprehensive analysis of health data to understand the health
+                status of populations. By examining patterns, trends, and disparities, we gain valuable insights that
+                contribute to informed decision-making in public health.
+            </p>
+        </section>
+
+        <section>
+            <h2>Different genetic diseases</h2>
+            <ul>
+                <li>
+                    <b>Hypertrophic Cardiomyopathy (HCM)</b> is a genetic disorder characterized by the thickening of the heart muscles, often caused by mutations in genes such as MYH7. One prevalent symptom of HCM is tachycardia, marked by a rapid heart rate. With an estimated prevalence of 1 in 500 individuals, the beta-blocker Metoprolol has proven effective in alleviating symptoms during a 12-week treatment period at a dosage of 50 mg. Clinical trial data from a detailed phase III trial revealed improved symptoms without any reported adverse reactions. The genetic biomarker RS10757274 is associated with the MYH7 mutation, providing a valuable diagnostic tool.
+                </li>
+                <li>
+                    <b>Cystic Fibrosis</b> is a hereditary disorder primarily affecting the respiratory and digestive systems, caused by mutations in the CFTR gene. Common symptoms include persistent coughing, respiratory infections, and digestive issues. The prevalence of cystic fibrosis varies among populations. Treatment often involves medications to manage symptoms, such as bronchodilators and antibiotics, along with lifestyle modifications. Advances in research have led to the development of targeted therapies addressing specific genetic mutations, improving the quality of life for individuals with cystic fibrosis.
+                </li>
+                <li>
+                    <b>Hereditary Breast Cancer</b> is linked to mutations in the BRCA1 and BRCA2 genes, significantly increasing the risk of developing breast and ovarian cancers. Genetic testing helps identify individuals with these mutations, enabling proactive measures such as enhanced screening or preventive surgeries. Various treatment options, including surgery, chemotherapy, and targeted therapies, are employed based on the cancer's characteristics. Early detection through genetic testing plays a crucial role in effectively managing hereditary breast cancer.
+                </li>
+                <li>
+                    <b>Huntington's Disease</b> is an inherited neurodegenerative disorder associated with the HTT gene. It leads to progressive motor dysfunction, cognitive decline, and psychiatric symptoms. The prevalence is approximately 5 to 10 cases per 100,000 individuals. Currently, there is no cure for Huntington's disease, and treatment focuses on managing symptoms through medications, therapy, and support services. Genetic testing can confirm the presence of the mutation, allowing for early intervention and support for affected individuals and their families.
+                </li>
+                <li>
+                    <b>Alzheimer's Disease</b> is a neurodegenerative condition characterized by cognitive decline and memory loss. While the exact cause is not fully understood, genetic factors, including the APOE gene, play a role in predisposition. The prevalence of Alzheimer's increases with age, affecting a significant portion of the elderly population. Treatment options are limited, with medications aiming to alleviate symptoms. Ongoing research seeks to understand the genetic and molecular basis of the disease for the development of more targeted therapies. Genetic testing may provide insights into an individual's risk for developing Alzheimer's disease, allowing for proactive measures and personalized care.
+                </li>
+            </ul>
+        </section>
+
+        <section id="get-involved" class="highlight">
+            <h2>Get Involved</h2>
+            <p>
+                Join us in the journey towards a healthier future. Your contribution can make a significant impact on public health.
+            </p>
+            <a href="#contact-us" class="cta-btn">Contact Us</a>
+        </section>
+
+        <section>
+            <h2>Impact on Public Health</h2>
+            <p>
+                By harnessing the power of population health analytics, we empower public health professionals to make data-driven decisions.
+                This knowledge can lead to targeted interventions, improved health outcomes, and more effective public health policies.
+            </p>
+        </section>
+
+        <!-- Map Section -->
+        <section>
+            <h2>Genetic Variations Across the Globe</h2>
+            <div id="map"></div>
+        </section>
+    </main>
+
+    <footer id="contact-us">
+        &copy; 2024 Population Health Analytics | All rights reserved | <a href="#top">Back to Top</a>
+    </footer>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <!-- Your custom map script goes here -->
+    <script>
+        var map = L.map('map').setView([20.5937, 0], 2); // Set the initial view to the center of the world
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '©️ OpenStreetMap contributors'
+        }).addTo(map);
+
+        var marker = L.marker([20.5937, 0]).addTo(map); // Place the marker in the center
+        marker.bindPopup("<b>Genetic Disease Information</b><br>Click on a region to view specific information.").openPopup();
+
+        // Event listener for map click
+        map.on('click', function (e) {
+            // Check if the click is within the boundaries of India
+            if (e.latlng.lat > 6.5543 && e.latlng.lat < 35.6745 && e.latlng.lng > 68.1097 && e.latlng.lng < 97.3956) {
+                marker.setLatLng(e.latlng); // Move the marker to the clicked location
+                marker.bindPopup("<b>Genetic Disease in India</b><br>Thalassemia is a prevalent genetic disease in India. 1 in 25 individuals carry the thalassemia trait in India.").openPopup();
+            }
+            // Check if the click is within the boundaries of the USA
+            else if (e.latlng.lat > 24.396308 && e.latlng.lat < 49.384358 && e.latlng.lng > -125.000000 && e.latlng.lng < -66.934570) {
+                marker.setLatLng(e.latlng); // Move the marker to the clicked location
+                marker.bindPopup("<b>Genetic Disease in the USA</b><br>Cystic fibrosis is a prevalent genetic disease in the USA. 1 in 2500 individuals carry the CF trait in the US.").openPopup();
+            }
+            // Check if the click is within the boundaries of Europe
+            else if (e.latlng.lat > 35 && e.latlng.lat < 70 && e.latlng.lng > -25 && e.latlng.lng < 40) {
+                marker.setLatLng(e.latlng); // Move the marker to the clicked location
+                marker.bindPopup("<b>Genetic Disease in Europe</b><br>Hemochromatosis is a prevalent genetic disease in Europe. 1 in 200 people have it in Europe.").openPopup();
+            }
+            // Check if the click is within the boundaries of Africa
+            else if (e.latlng.lat > -35 && e.latlng.lat < 20 && e.latlng.lng > -25 && e.latlng.lng < 50) {
+                marker.setLatLng(e.latlng); // Move the marker to the clicked location
+                marker.bindPopup("<b>Genetic Disease in Africa</b><br>Sickle cell anemia is a prevalent genetic disease in Africa. 1 in 1000 peeple have sickle cell anemia in Africa.").openPopup();
+            }
+            // Check if the click is within the boundaries of South America
+            else if (e.latlng.lat > -56 && e.latlng.lat < 12 && e.latlng.lng > -90 && e.latlng.lng < -35) {
+                marker.setLatLng(e.latlng); // Move the marker to the clicked location
+                marker.bindPopup("<b>Genetic Disease in South America</b><br>Chagas disease is a prevalent genetic disease in South America. Prevalence: 1 in 4,000 individuals.").openPopup();
+            }
+            // Check if the click is within the boundaries of China
+            else if (e.latlng.lat > 20 && e.latlng.lat < 45 && e.latlng.lng > 73 && e.latlng.lng < 135) {
+                marker.setLatLng(e.latlng); // Move the marker to the clicked location
+                marker.bindPopup("<b>Genetic Disease in China</b><br>Thalassemia and Hepatitis B are prevalent genetic diseases in China. Prevalence: Thalassemia - 1 in 100 individuals, Hepatitis B - varies by region.").openPopup();
+            }
+            // Check if the click is within the boundaries of Russia
+            else if (e.latlng.lat > 41 && e.latlng.lat < 82 && e.latlng.lng > 19 && e.latlng.lng < 169) {
+                marker.setLatLng(e.latlng); // Move the marker to the clicked location
+                marker.bindPopup("<b>Genetic Disease in Russia</b><br>Hemophilia is a prevalent genetic disease in Russia. Prevalence: 1 in 6,000 males.").openPopup();
+            }
+            // If none of the above, show a generic popup
+            else {
+                marker.setLatLng([20.5937, 0]); // Move the marker back to the center
+                marker.bindPopup("<b>Genetic Disease Information</b><br>Click on a region to view specific information.").openPopup();
+            }
+        });
+    </script>
+    <p>Contact us at: gautammahesh1208@gmail.com</p>
+</body>
+
+</html>

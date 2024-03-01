@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Gene Explorer</title>
+  
+  <style>
+    
+    /*font*/
+
+    @font-face {
+      font-family:customfont;
+      src: url('banshee-pilot-condensed.ttf') format('truetype');
+    }
+    .customfont{
+      font-family: customfont;
+    }
+
+    /*Body*/
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('7aNh.gif') center/cover no-repeat ;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      
+    }
+
+    
+    /*Navigation bar and main content*/
+
+    nav {
+      display: flex;
+      justify-content: left;
+      margin-top: 20px;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+    }
+    main {
+      padding: 20px;
+      justify-content: left;
+      color:#E9C00C;
+      margin-top:270px;
+      margin-left:200px;
+
+    }
+  
+    .topnav {
+      background-color: #E9C00C;
+      overflow: hidden;
+      position: fixed; 
+      top: 0; 
+      width: 100%; 
+    }
+    
+    /*button*/
+
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: #81D8D0;
+        color: black;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-left: 170px;
+    }
+    .getstarted {
+        border-color: #81D8D0;
+        color: black;
+    }
+   
+    .getstarted:hover {
+        background: #0ABAB5;
+        color: white;
+    }
+    
+    /*Titles and images*/
+
+    .left{
+      text-align: left;
+      vertical-align: middle;
+    }
+    .right{ 
+      text-align: right;
+      margin-top: -60px; 
+    }
+    .title{
+        margin-left:-15px;
+        font-size: 80px;
+    }
+
+    .subtitle{
+      font-size: 30px;
+    }
+
+      /*About boxes*/
+
+    .roundedbox1{
+      color:white;
+      border-radius: 10px;
+      background-color: #282b30;
+      padding: 15px;
+      margin-left: 30px;
+      margin-right: 1000px;
+      margin-top: 300px;
+      text-align: center;
+      box-shadow: 10px 10px 5px whitesmoke;
+    }
+    .roundedbox2{
+      color:white;
+      border-radius: 10px;
+      background-color: #282b30;
+      padding: 15px;
+      margin-left: 1000px;
+      margin-right: 30px;
+      margin-top: -323px;
+      text-align: center;
+      box-shadow: 10px 10px 5px whitesmoke;
+    }
+    .roundedbox3{
+      color:white;
+      border-radius: 10px;
+      background-color: #282b30;
+      padding: 15px;
+      margin-left: 1000px;
+      margin-right: 30px;
+      margin-top: 50px;
+      text-align: center;
+      box-shadow: 10px 10px 5px whitesmoke;
+    }
+    .roundedbox4{
+      color:white;
+      border-radius: 10px;
+      background-color: #282b30;
+      padding: 15px;
+      margin-left: 30px;
+      margin-right: 1000px;
+      margin-top: -341px;
+      text-align: center;
+      box-shadow: 10px 10px 5px whitesmoke;
+    }
+
+    .buttonnav{
+      float: middle;
+      margin-left: 800px;
+      margin-top: -40px;
+    }
+
+    .button{
+      padding: 10px 20px;
+      border-radius: 5px;
+      background-color: #E9C00C;
+      border-color: #E9C00C;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-left: 170px;
+      font-family: customfont;
+    }
+    .movement3{
+      margin-left: -400px;
+      margin-top: -46px;
+    }
+  </style>
+ 
+</head>
+
+
+<body>
+
+  <!--Navigation bar-->
+
+  <div class="topnav">
+
+    <div class="left">
+      <img src="Genelablogo.png">
+    </div>
+
+      <ul class="buttonnav">
+          <a href="puzzledirection.html"><button class="button" style="font-weight: bold;">Mind Games</button></a>
+          <a href="Aimodel.html"><button class="button" style="font-weight: bold;">AI Models</button></a>
+        <div class="movement3">
+          <a href="globalhealth.html"><button class="button" style="font-weight: bold;">Global Health Analytics</button></a>
+        </div>
+        
+      </ul>
+
+    <div class="right">
+      <img src="logogenetic.png"> 
+    </div>
+  </div>
+
+  <!--Main content,button,etc.-->
+
+  <main class="customfont">
+    <div>
+      <h1 class="title">GeneticsLab</h1>
+      <h2 class="subtitle">Helping Humanity Gene by Gene</h2>
+    </div>
+      <nav>
+        <a class="btn getstarted" href="form.html">Get Started</a>
+      </nav>
+  </main>
+
+  <!--All boxes with info-->
+
+  <div class="roundedbox1">
+    <h1> About GeneticsLab</h1>
+    <p>Welcome to GeneticsLab, where we are at the forefront of revolutionizing the healthcare industry. At the core of our mission is a commitment to personalized and effective healthcare solutions. By harnessing the power of genetic information and the symptoms shared by our users, we pave the way for a new era of targeted treatments and unprecedented medical insights. Our innovative approach allows us to tailor healthcare strategies to individual needs, providing a level of precision that was once thought impossible. At GeneticsLab, we believe in empowering individuals with the knowledge and tools to take control of their health journey. Join us in reshaping the future of healthcare, where each person's unique genetic makeup and symptoms are key components in unlocking the door to optimal well-being.</p>
+  </div>
+  <div class="roundedbox2">
+    <h1>What we do</h1>
+    <p>At GeneticsLab, we specialize in leveraging cutting-edge advancements in genetic research and symptom analysis to redefine healthcare. Our primary focus is on developing revolutionary solutions that bridge the gap between genetic information and effective treatments. By integrating the genetic data and symptoms provided by our users, we offer a personalized and precise approach to healthcare. Our platform goes beyond traditional one-size-fits-all methods, providing tailored strategies that address the unique aspects of each individual's genetic makeup. Through our commitment to innovation and individualized care, we empower users to make informed decisions about their health, fostering a new era in which medical treatments are as unique as the individuals they serve.</p>
+  </div>
+  <div class="roundedbox3">
+    <h1>Genetics</h1>
+    <p>Genetics, the intricate language written within the DNA of every living organism, serves as the blueprint for life's diversity and complexity. This captivating field of study explores the inheritance of traits, behaviors, and characteristics from one generation to the next. DNA, the fundamental molecule of genetics, encodes the instructions for the development, functioning, and maintenance of living organisms. Unraveling the mysteries of genetics has unlocked profound insights into the mechanisms underlying health, disease, and evolution. From identifying genetic markers linked to hereditary conditions to enabling precision medicine tailored to individual genetic profiles, the study of genetics continues to reshape our understanding of life itself. As we delve deeper into the intricacies of the genetic code, we embark on a journey of discovery that holds the potential to revolutionize not only healthcare but also our broader understanding of the natural world.</p>
+  </div>
+  <div class="roundedbox4">
+    <h1>Red Biotechnology</h1>
+    <p>Red biotechnology, also known as medical biotechnology, stands at the forefront of scientific advancements aimed at improving healthcare outcomes and addressing medical challenges. This specialized branch of biotechnology focuses on the development of innovative pharmaceuticals, diagnostics, and therapeutic solutions. Through genetic engineering, cell therapy, and molecular interventions, red biotechnology plays a pivotal role in creating targeted treatments for various diseases and medical conditions. From the production of novel drugs to the engineering of genetically modified organisms for medical purposes, red biotechnology harnesses the power of living organisms and their molecular components to propel medical science forward. As we continue to unlock the secrets of the biological realm, red biotechnology emerges as a key driver in shaping the future of medicine, offering hope for more effective and personalized approaches to healthcare.</p>
+  </div>
+</body>
+</html>

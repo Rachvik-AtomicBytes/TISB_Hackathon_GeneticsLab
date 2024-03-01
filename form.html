@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Redirection</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js">
+	</script>
+</head>
+<body>
+
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #f0f0f0;
+          margin: 0;
+          padding: 0;
+        }
+        
+        .container {
+          max-width: 800px;
+          margin: 50px auto;
+          padding: 20px;
+          background-color: #fff;
+          border: 1px solid #ccc;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+          text-align: center;
+          margin-bottom: 30px;
+          color: #333;
+        }
+        
+        label {
+          display: block;
+          margin-bottom: 10px;
+          font-size: 18px;
+        }
+        
+        input[type="text"],
+        input[type="tel"],
+        textarea,
+        select {
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 20px;
+          font-size: 16px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+        }
+        
+        input[type="checkbox"] {
+          margin-right: 5px;
+        }
+        
+        button[type="submit"] {
+          padding: 10px 20px;
+          font-size: 18px;
+          color: #fff;
+          background-color: #007bff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+        
+        button[type="submit"]:hover {
+          background-color: #0056b3;
+        }
+        </style>
+    
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>GeneticsLab | Medical Form</title>
+</head>
+
+   
+    
+   
+<form id="pdfForm">
+
+      <p><h1 style="text-decoration: underline; font-family: Courier, sans-serif; text-align:center;font-size: 4em; color: brown;"> <br>Medical Registration Form </h1></p>
+      <p><b><label style="font-size: 2.25em" for="first_name">First Name *:</label></b></p>
+      <input style="font-size: 2.25em" type="text" id="first_name" name="first_name" required="">
+      <p><b><label style="font-size: 2.25em" for="last_name">Last Name *:</label></b></p>
+      <input style="font-size: 2.25em" type="text" id="last_name" name="last_name" required="">
+      <p><b><label style="font-size: 2.25em" for="birth_date">Birth Date *:</label></b></p>
+      <input style="font-size: 2.25em" type="date" name="birth_date" id="birth_date" name="birth_date" min="1" max="120" required="">
+      <p><b><label style="font-size: 2.25em" for="gender">Gender *:</label></b></p>
+      <select style="font-size: 2.25em" name="gender" id="gender" required="">
+        <option value="" selected disabled>Select</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+      <p><b><label style="font-size: 2.25em" for="phone_number">Phone Number *:</label></b></p>
+      <input style="font-size: 2.25em" type="tel" id="phone_number" name="phone_number" pattern="^(\d{10})$" required="">
+      <p><b><label style="font-size: 2.25em" for="email_id">Email id *:</label></b></p>
+      <input style="font-size: 2.25em" type="text" id="email_id" name="email_id" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+      <p><b><label style="font-size: 2.25em" for="medical_problems">Medical Problems:</label></b></p>
+      <textarea style="font-size: 1.5em" type="text" id="medical_problems" name="medical_problems" rows="10" cols="100" required=""></textarea>
+      <br><br><br><br>
+      <p><b><label style="font-size: 2.25em" for="medical_questions">Medical Questions:</label></b></p>
+      <label style="font-size: 2.25em" for="question1">Do you have any allergies?</label>
+      <label style="font-size: 2.25em"><input type="checkbox" name="question1" value="yes"> Yes</label>
+      <label style="font-size: 2.25em"><input type="checkbox" name="question1" value="no"> No</label>
+      <label style="font-size: 2.25em" for="question2">Have you visited a doctor in the past year?</label>
+      <label style="font-size: 2.25em"><input type="checkbox" name="question2" value="yes"> Yes</label>
+      <label style="font-size: 2.25em"><input type="checkbox" name="question2" value="no"> No</label>
+      <label style="font-size: 2.25em" for="question3">Are you currently taking any medication?</label>
+      <label style="font-size: 2.25em"><input type="checkbox" name="question3" value="yes"> Yes</label>
+      <label style="font-size: 2.25em"><input type="checkbox" name="question3" value="no"> No</label>
+      <label style="font-size: 2.25em" for="question4">Have you had any surgeries in the past year?</label>
+      <label style="font-size: 2.25em"><input type="checkbox" name="question4" value="yes"> Yes</label>
+      <label style="font-size: 2.25em"><input type="checkbox" name="question4" value="no"> No</label>
+      <br><br>
+   
+   
+      <button type="button" onclick="generatePdf()">Submit</button>
+
+</form>   
+
+<script>
+    function generatePdf() {
+        let formElement = document.getElementById('pdfForm');
+        // Prevent default form submission
+        event.preventDefault();
+        html2pdf().from(formElement).save();
+        alert("Thank you, you can now email this PDF to your doctor.");
+    }
+</script>
+</body>
+</html>

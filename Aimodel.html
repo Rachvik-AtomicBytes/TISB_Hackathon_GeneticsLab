@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeneticsLab | AI Models</title>
+    <style>
+        
+        body {
+            background: url('') center/cover no-repeat ;
+            text-align: center;
+            padding: 50px;
+            background-color: #f5f5f5;
+        }
+
+        .heading{
+            color: black;
+            font-size:50px;
+        }
+
+        button {
+            font-size: 18px;
+            padding: 15px 30px;
+            margin: 20px;
+            cursor: pointer;
+            background-color: #e9c00c;
+            color: black;
+            border: none;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+            font-family: customfont;
+        }
+
+        button:hover {
+            background-color: #c2a110;
+        }
+        @font-face {
+            font-family:customfont;
+            src: url('banshee-pilot-condensed.ttf') format('truetype');
+        }
+        .font{
+            font-family: customfont;
+        }
+        
+        .roundedbox1{
+            color:white;
+            border-radius: 10px;
+            background-color: #282b30;
+            padding: 15px;
+            margin-left: 30px;
+            margin-right: 1000px;
+            margin-top: 300px;
+            text-align: center;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .roundedbox2{
+            color:white;
+            border-radius: 10px;
+            background-color: #282b30;
+            padding: 15px;
+            margin-left: 1000px;
+            margin-right: 30px;
+            margin-top: -390px;
+            text-align: center;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="font">
+        <h1 class="heading">AI Models</h1>
+
+        <button onclick="redirectToModel('IN.html')">Genetic Treatment Plan</button>
+        <button onclick="redirectToModel('input.html')">Drug Efficacy</button>
+    </div>
+
+    <div class="roundedbox1">
+        <h1> Gene Treatment Plan</h1>
+        <p>A personalized gene treatment platform represents a groundbreaking advancement in healthcare, allowing users to input their genetic conditions and receive tailored treatment plans. This innovative technology harnesses the power of genetic data, enabling individuals to understand and manage their unique genetic makeup. Users input their genetic information, and the platform employs sophisticated algorithms to analyze the data, identifying specific genetic mutations or variations associated with their conditions. Subsequently, the platform generates a comprehensive treatment plan that may include targeted gene therapies, lifestyle recommendations, and potential pharmaceutical interventions. As technology continues to progress, personalized gene treatment platforms hold the promise of revolutionizing healthcare delivery by offering precision medicine tailored to the individual's genetic profile.</p>
+      </div>
+    <div class="roundedbox2">
+        <h1>Drug Efficacy</h1>
+        <p>A drug efficacy module represents a pivotal tool in the realm of healthcare, empowering researchers and patients to gauge the effectiveness of specific drugs for particular medical conditions. This innovative module allows users to input any drug of interest, along with relevant information about the medical condition or disease they are investigating. Leveraging a sophisticated algorithm and a vast database of clinical and pharmacological data, the system systematically analyzes the drug's efficacy, taking into account factors such as mechanism of action, clinical trial results, and patient outcomes. The output provides valuable insights into the drug's effectiveness for the specified case, aiding researchers in making informed decisions and allowing patients to better understand the potential benefits of a prescribed medication. This technology not only streamlines the drug evaluation process but also contributes to more personalized and evidence-based healthcare decision-making.</p>
+    </div>
+
+    <script>
+        function redirectToModel(url) {
+            window.location.href = url;
+        }
+        
+window.embeddedChatbotConfig = {
+chatbotId: "ITfc-UOX1lFKCJobr-kf2",
+domain: "www.chatbase.co"
+}
+</script>
+<script
+src="https://www.chatbase.co/embed.min.js"
+chatbotId="ITfc-UOX1lFKCJobr-kf2"
+domain="www.chatbase.co"
+defer>
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeneticsLab | Kids Games</title>
+    <style>
+        body {
+            background: url('gameback.jpg') center/cover no-repeat ;
+            text-align: center;
+            padding: 50px;
+            background-color: #f5f5f5;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+
+        .heading{
+            color: black;
+            font-size:50px;
+        }
+
+        button {
+            font-size: 18px;
+            padding: 15px 30px;
+            margin: 20px;
+            cursor: pointer;
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .roundedbox1{
+            color:white;
+            border-radius: 10px;
+            background-color: #282b30;
+            padding: 15px;
+            margin-left: 30px;
+            margin-right: 1000px;
+            margin-top: 300px;
+            text-align: center;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .roundedbox2{
+            color:white;
+            border-radius: 10px;
+            background-color: #282b30;
+            padding: 15px;
+            margin-left: 1000px;
+            margin-right: 30px;
+            margin-top: -443px;
+            text-align: center;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+    </style>
+</head>
+<body>
+
+
+
+
+    <h1 class="heading">Welcome to Kids Games!</h1>
+
+    <button onclick="redirectToGame('puzzlepage.html')">Riddle Puzzle</button>
+    <button onclick="redirectToGame('otherpuzzle.html')">Memory Game</button>
+
+
+
+    <div class="roundedbox1">
+        <h1> Benefits Of These Brain Games</h1>
+        <p>Engaging children with mental disorders in mental games can be highly beneficial for their overall well-being and cognitive development. Mental games provide a unique and enjoyable avenue for children to enhance their cognitive skills, including memory, attention, problem-solving, and emotional regulation. These games are designed to stimulate various areas of the brain, fostering neuroplasticity and improving neural connections. For children with mental disorders, such as attention deficit hyperactivity disorder (ADHD), anxiety, or depression, mental games offer a structured and entertaining way to channel their energy, reduce stress, and develop coping mechanisms. Additionally, these games often incorporate elements of mindfulness and relaxation, aiding children in building emotional resilience and self-awareness. The positive impact of mental games extends beyond cognitive benefits, as they can also contribute to improved self-esteem and social skills. Overall, integrating mental games into the daily routine of children with mental disorders provides a holistic approach to their therapeutic journey, promoting mental and emotional well-being.</p>
+      </div>
+    <div class="roundedbox2">
+        <h3>Memory Game</h3>
+        <p>Memory games, such as the classic matching pairs or concentration games, focus on improving memory recall and concentration. To play a memory game, players are presented with a set of cards facedown, each with a matching pair. The objective is to flip over cards, trying to find matching pairs by remembering the location of previously revealed cards. This process challenges short-term memory and sharpens concentration skills, making it an excellent exercise for individuals of all ages.</p>
+        <h3>Riddle Game</h3>
+        <p>To play a riddle game, participants are presented with puzzling questions or statements that require clever interpretation and logical deduction. Players must use their cognitive abilities to decipher the hidden meaning or solve the presented challenge. The enjoyment lies in the mental exploration and the satisfaction of discovering the solution. Riddle games encourage linguistic skills, lateral thinking, and the ability to approach problems from different perspectives.</p>
+    </div>
+    <script>
+        function redirectToGame(url) {
+            window.location.href = url;
+        }
+    </script>
+
+</body>
+</html>
